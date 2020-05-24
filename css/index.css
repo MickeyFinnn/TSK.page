@@ -1,0 +1,74 @@
+body {
+    max-width:100%;
+}
+.top-menu {
+    background-color: rgb(95, 66, 177);
+    height: 100px;
+    margin-bottom: -26px;
+}
+.topmenubar {
+    display: flex; 
+    justify-content: center ;
+    list-style: none;
+}
+.top-menu ul li {
+    margin: 20px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    position: relative;
+    top: -90px;
+    text-align: center;
+    color: white;
+    
+}
+ul a {
+    color: white;
+    text-decoration: none;
+}
+ul a:hover {
+    color: red;
+}
+/*.changelangbox {
+    max-width: 100px;
+    position: relative;
+    left: 970px;
+    top: -6px;
+} */
+
+.changelang {
+    position: relative;
+    top: -173px;
+    text-align: end;
+    left: -19px;
+    color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.changelang a {
+    text-decoration: none;
+    color: white;
+}
+.changelang a:hover {
+    color: red;
+}
+.truckphoto {
+    width: 100%;
+}
+.tsklogo {
+    display: block;
+    max-width: 100%;
+    transition-duration: 2s;
+}
+.tsklogo:hover {
+    transform: scale(1.2);
+}
+.top-menu-photo {
+    max-width: 80px;
+}
+.phonenumberstext {
+    text-align: center;
+    left: 96px;
+    color: white;
+    position: relative;
+    top: -94px;
+}
+
+    
