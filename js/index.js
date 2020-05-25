@@ -20,3 +20,26 @@ const x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+document.querySelector('.arrow-left')
+  .addEventListener('click', slideImg);
+
+
+  const imgArray = [
+    'img/tegrys.jpg',
+    'img/formula.png',
+    'img/pireli.png',
+    'img/compasal.jpg',
+    'img/aplus.jpg',
+    'img/jinyu.jpg'
+  ];
+  let currImgidx = 0;
+  
+  function slideImg() {
+    currImgidx++;
+    if (currImgidx > imgArray.length -1) {
+      currImgidx = 0
+    }
+    const img = document.querySelector('.partners img');
+    img.src = imgArray[currImgidx]
+  }  

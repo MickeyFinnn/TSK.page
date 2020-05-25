@@ -9,6 +9,7 @@ body {
 }
 .topmenubar {
     display: flex; 
+    flex-wrap: wrap;
     justify-content: center ;
     list-style: none;
 }
@@ -28,13 +29,6 @@ ul a {
 ul a:hover {
     color: red;
 }
-/*.changelangbox {
-    max-width: 100px;
-    position: relative;
-    left: 970px;
-    top: -6px;
-} */
-
 .changelang {
     position: relative;
     top: -147px;
@@ -67,16 +61,28 @@ ul a:hover {
 }
 .phonenumberstext {
     text-align: center;
-    left: 96px;
-    color: white;
     position: relative;
-    top: -94px;
+    top: -128px;
+    display: flex;
+    color: wheat;
+    justify-content: flex-end;
+    left: -114px;
+}
+.companytext{
+    text-align: center;
+    position: relative;
+    top: -128px;
+    display: flex;
+    color: wheat;
+    justify-content: flex-end;
+    font-size: 29px;
+    left: -18px;
 }
 .aboutus {
     background-color: #ca0031;
     text-align: center;
     position: relative;
-    top: -99px;
+    top: -129px;
     font-family: Comic Sans MS, Comic Sans, cursive;
     color: black;
 }
@@ -84,18 +90,70 @@ ul a:hover {
     text-align: center;
     font-family: Comic Sans MS, Comic Sans, cursive;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: -115px;
+    top: -145px;
     position: relative;
     background-color: #4a97c9;
 }
 .patnerscarus {
     max-width: 350px;
 }
+
+.partners .arrow-left {
+    cursor: pointer;
+}
+    .arrow-left {
+        color: white;
+        background-color: red;
+        border: 2px solid black;
+        border-radius: 25px;
+        width: 42px;
+        margin-bottom: 10px;
+        left: 161px;
+        position: relative;
+        font-size: 18px;
+    }
+    .arrow-left:hover{
+        background-color: black;
+        color: white;
+    }
+    .partners img {
+        height: 150px;
+        width: 350px;
+        border: 1px solid black;
+        border-radius: 89px;
+    }
+ .tyresexample {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 3fr 1fr 3fr 1fr;
+ }
+ .tyresexample img {
+    display: block;
+    max-width: 340px;
+    max-height: 250px;
+    position: relative;
+    top: -123px;
+    left: 50px;
+    transition-duration: 2s;
+}
+.tyresexample img:hover {
+    transform: scale(1.2);
+}
+.tyresexample p {
+    display: block;
+    position: relative;
+    top: -111px;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    font-size: 2rem;
+    margin-left: 30px;
+}
 .forsale {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -121,13 +179,14 @@ ul a:hover {
    background-color: black;
 }
 .forsale {
-    background-image: url(../img/тсклого.png);
+    background-image: url(../img/firetyre.png);
     background-attachment: fixed;
     background-position-y: -120px;
     background-position-x: center;
     height: 421px;
     position: relative;
     top: -115px;
+    max-width: 100%;
 }
 .forsalehead {
     position: relative;
@@ -157,10 +216,13 @@ ul a:hover {
 }
 .contactstext {
     position: relative;
-    left: 30px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 25px;
 }
 .inputmailform {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     position: relative;
     right: 146px;
@@ -172,7 +234,7 @@ ul a:hover {
     left: 97px;
     border-radius: 25px;
 }
-.inputphone {
+.input {
     position: relative;
     left: 97px;
     border-radius: 25px;
@@ -187,6 +249,8 @@ ul a:hover {
 }
 .inputmailform input {
     margin-bottom: 10px;
+    position: relative;
+    left: 94px;
 }
 .sendbutton {
     position: relative;
@@ -197,10 +261,13 @@ ul a:hover {
 }
 footer {
     background-color: rgb(95, 66, 177);
+    position: relative;
+    top: -115px;
 }
 .logofooter {
     transition-duration: 2s;
     display: flex;
+    flex-wrap: wrap;
     max-width: 50px;
     justify-content: flex-start;
     left: 35px;
