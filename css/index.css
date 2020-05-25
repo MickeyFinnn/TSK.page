@@ -1,6 +1,7 @@
 body {
     max-width:100%;
 }
+
 .top-menu {
     background-color: rgb(95, 66, 177);
     height: 100px;
@@ -120,12 +121,87 @@ ul a:hover {
    background-color: black;
 }
 .forsale {
-    background-image: url(../img/firetyre.png);
+    background-image: url(../img/тсклого.png);
     background-attachment: fixed;
-    background-position-y: -32px;
+    background-position-y: -120px;
     background-position-x: center;
+    height: 421px;
+    position: relative;
+    top: -115px;
 }
 .forsalehead {
     position: relative;
     top: -20px;
+}
+.roadmap {
+    max-width: 455px;
+    max-height: 228px;
+    position: relative;
+    left: 25px;
+    top: -408px;
+}
+.contacsiformation {
+    position: relative;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background-color: #898a8d;
+    top: -115px;
+    max-height: 621px;
+}
+.contactinformationhead {
+    position: relative;
+    text-align: center;
+}
+.contacinformationunderhead {
+    position: relative;
+    text-align: center;
+}
+.contactstext {
+    position: relative;
+    left: 30px;
+}
+.inputmailform {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 146px;
+    top: -246px;
+    
+}
+.inputmail {
+    position: relative;
+    left: 97px;
+    border-radius: 25px;
+}
+.inputphone {
+    position: relative;
+    left: 97px;
+    border-radius: 25px;
+}
+.inputname {
+    position: relative;
+    left: 97px;
+    border-radius: 25px;
+}
+.textarea {
+    border-radius: 25px;
+}
+.inputmailform input {
+    margin-bottom: 10px;
+}
+.sendbutton {
+    position: relative;
+    left: 150px;
+    border: 3px solid black;
+    background-color: #4a97c9;
+    border-radius: 25px;
+}
+footer {
+    background-color: rgb(95, 66, 177);
+}
+.logofooter {
+    transition-duration: 2s;
+    display: flex;
+    max-width: 50px;
+    justify-content: flex-start;
+    left: 35px;
 }
