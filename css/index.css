@@ -36,11 +36,12 @@ ul a:hover {
 
 .changelang {
     position: relative;
-    top: -173px;
+    top: -147px;
     text-align: end;
-    left: -19px;
+    left: -28px;
     color: white;
     font-family: Comic Sans MS, Comic Sans, cursive;
+    max-height: 0px;
 }
 .changelang a {
     text-decoration: none;
@@ -91,4 +92,40 @@ ul a:hover {
 }
 .patnerscarus {
     max-width: 350px;
+}
+.forsale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -100px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.timercutdown {
+    border: 3px solid black;
+    border-radius: 25px;
+    max-width: 150px;
+    background-color: #898a8d;
+}
+.goforsale {
+    background-color: blue;
+    border-radius: 25px;
+}
+.goforsale a {
+    color: cornsilk;
+    text-decoration: none;
+}
+.goforsale:hover {
+   background-color: black;
+}
+.forsale {
+    background-image: url(../img/firetyre.png);
+    background-attachment: fixed;
+    background-position-y: -32px;
+    background-position-x: center;
+}
+.forsalehead {
+    position: relative;
+    top: -20px;
 }
