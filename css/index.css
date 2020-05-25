@@ -70,5 +70,25 @@ ul a:hover {
     position: relative;
     top: -94px;
 }
-
-    
+.aboutus {
+    background-color: #ca0031;
+    text-align: center;
+    position: relative;
+    top: -99px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: black;
+}
+.ourpartners {
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: -115px;
+    position: relative;
+    background-color: #4a97c9;
+}
+.patnerscarus {
+    max-width: 350px;
+}
