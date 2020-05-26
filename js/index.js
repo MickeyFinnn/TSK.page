@@ -21,3 +21,6 @@ const x = setInterval(function() {
   }
 }, 1000);
 
+button.onclick = function() {
+  alert('EMAIL - tsc.lviv@gmail.com');
+};
