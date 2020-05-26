@@ -82,7 +82,7 @@ ul a:hover {
     background-color: #ca0031;
     text-align: center;
     position: relative;
-    top: -129px;
+    top: -130px;
     font-family: Comic Sans MS, Comic Sans, cursive;
     color: black;
 }
@@ -94,38 +94,21 @@ ul a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: -145px;
+    top: -146px;
     position: relative;
     background-color: #4a97c9;
 }
-.patnerscarus {
-    max-width: 350px;
+
+.carousel-inner img{
+    height: 150px;
+}
+.w-100 {
+    list-style: none;
+    width: 350px!important;
+    border: 1px solid black;
+    border-radius: 25px;
 }
 
-.partners .arrow-left {
-    cursor: pointer;
-}
-    .arrow-left {
-        color: white;
-        background-color: red;
-        border: 2px solid black;
-        border-radius: 25px;
-        width: 42px;
-        margin-bottom: 10px;
-        left: 161px;
-        position: relative;
-        font-size: 18px;
-    }
-    .arrow-left:hover{
-        background-color: black;
-        color: white;
-    }
-    .partners img {
-        height: 150px;
-        width: 350px;
-        border: 1px solid black;
-        border-radius: 89px;
-    }
  .tyresexample {
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
@@ -187,24 +170,26 @@ ul a:hover {
     position: relative;
     top: -115px;
     max-width: 100%;
+    margin-bottom: -115px;
 }
 .forsalehead {
     position: relative;
     top: -20px;
 }
 .roadmap {
-    max-width: 455px;
-    max-height: 228px;
+    max-width: 467px;
+    max-height: 355px;
     position: relative;
-    left: 25px;
-    top: -408px;
+    left: 62px;
+    top: -370px;
+    margin-bottom: -140px;
 }
 .contacsiformation {
     position: relative;
     font-family: Comic Sans MS, Comic Sans, cursive;
     background-color: #898a8d;
-    top: -115px;
-    max-height: 621px;
+    margin-bottom: -135px;
+    /*max-height: 621px;*/
 }
 .contactinformationhead {
     position: relative;
@@ -234,7 +219,7 @@ ul a:hover {
     left: 97px;
     border-radius: 25px;
 }
-.input {
+.inputphone {
     position: relative;
     left: 97px;
     border-radius: 25px;
@@ -259,16 +244,89 @@ ul a:hover {
     background-color: #4a97c9;
     border-radius: 25px;
 }
+.sendbutton:hover {
+    color: red;
+    background-color: black;
+}
 footer {
     background-color: rgb(95, 66, 177);
     position: relative;
-    top: -115px;
+    height: 135px;
+    margin-bottom: -56px;
+    top: 135px;
 }
 .logofooter {
     transition-duration: 2s;
+    flex-wrap: wrap;
+    max-width: 67px;
+    position: relative;
+    left: 12px;
+    top: 38px; 
+}
+.logofooter:hover{
+    transform: scale(1.2);
+}
+.fackebooklogo {
+    max-width: 35px;
+    border: 1px solid black;
+    border-radius: 100px;
+    position: relative;
+    
+    transition-duration: 2s;
+}
+.fackebooklogo:hover {
+    transform: scale(1.2);
+}
+.emaillogo {
+    max-width: 35px;
+    border: 1px solid black;
+    border-radius: 100px;
+    position: relative;
+    transition-duration: 2s;
+    margin-left: 25px;
+}
+.emaillogo:hover {
+    transform: scale(1.2);
+}
+.mediainform {
+    display: flex;
+    justify-content: center;
+}
+.footermenubar {
     display: flex;
     flex-wrap: wrap;
-    max-width: 50px;
-    justify-content: flex-start;
-    left: 35px;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: -14px;
+    top: -9px;
+    position: relative;
+}
+.foot-menu {
+    background-color: rgb(95, 66, 177);
+    height: 100px;
+    margin-bottom: -26px;
+}
+.foot-menu ul li {
+    margin: 20px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    position: relative;
+    top: -90px;
+    text-align: center;
+    color: white;
+    
+}
+ul a {
+    color: white;
+    text-decoration: none;
+}
+ul a:hover {
+    color: red;
+}
+.tsklogofooter {
+    display: block;
+    max-width: 100%;
+    transition-duration: 2s;
+    position: relative;
+    left: 22px;
+    top: 32px;
 }
