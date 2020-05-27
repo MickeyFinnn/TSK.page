@@ -1,3 +1,11 @@
+document.getElementById("trigger").onclick = function() {
+  open()
+};
+
+function open() {
+  document.getElementById("menu").classList.toggle("show");
+}
+
 const countDownDate = new Date("June 25, 2020 13:37:25").getTime();
 
 

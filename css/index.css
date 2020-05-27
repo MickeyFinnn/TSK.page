@@ -7,28 +7,62 @@ body {
     height: 100px;
     margin-bottom: -26px;
 }
-.topmenubar {
-    display: flex; 
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    justify-content: center ;
     list-style: none;
-}
-.top-menu ul li {
-    margin: 20px;
-    font-family: Comic Sans MS, Comic Sans, cursive;
     position: relative;
-    top: -90px;
-    text-align: center;
-    color: white;
+    justify-content: center;
+    top: -72px;
     
 }
-ul a {
-    color: white;
+.nav li {
+    margin-left: 45px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
     text-decoration: none;
-}
-ul a:hover {
-    color: red;
-}
+  }
+  
+  ul {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+
+  }
+  
+  ul a {
+    margin-left: 10px;
+  }
+  
+  @media (max-width:770px) {
+    .menu {
+      display: none;
+    }
+    .trigger {
+      display: inline-block;
+      margin: 3px;
+      cursor: pointer;
+    }
+    .trigger i {
+      display: block;
+      width: 30px;
+      height: 6px;
+      margin: 4px auto;
+      background: #222;
+    }
+    .show {
+      display: block;
+    }
+  }
+
 .changelang {
     position: relative;
     top: -147px;
@@ -42,9 +76,7 @@ ul a:hover {
     text-decoration: none;
     color: white;
 }
-.changelang a:hover {
-    color: red;
-}
+
 .truckphoto {
     width: 100%;
 }
@@ -184,6 +216,15 @@ ul a:hover {
     top: -370px;
     margin-bottom: -140px;
 }
+@media(max-width: 1240px) {
+    .roadmap {
+        max-width: 467px;
+        max-height: 355px;
+        position: relative;
+        left: 62px;
+        top: -196px;
+    }
+}
 .contacsiformation {
     position: relative;
     font-family: Comic Sans MS, Comic Sans, cursive;
@@ -315,11 +356,11 @@ footer {
     color: white;
     
 }
-ul a {
+ ul a {
     color: white;
     text-decoration: none;
 }
-ul a:hover {
+ ul a:hover {
     color: red;
 }
 .tsklogofooter {
