@@ -1,0 +1,65 @@
+.tsklogo {
+    transition-duration: 2s;
+    width: 110px
+}
+.tsklogo:hover {
+    transform: scale(1.2);
+}
+.home-page {
+   position: relative;
+    text-decoration: none;
+    color: black;
+    transition-duration: 1s;
+    font-size: 1.5rem;
+    left: 327px;
+}
+.home-page:hover {
+    color: red;
+    transform: scale(1.2)
+    
+}
+nav {
+    background-color: purple;
+
+}
+.fackebooklogo {
+    max-width: 45px;
+    border: 1px solid black;
+    border-radius: 100px;
+    position: relative;
+    margin-right: 10px;
+    transition-duration: 2s;
+}
+.fackebooklogo:hover {
+    transform: scale(1.2);
+}
+.emaillogo {
+    max-width: 45px;
+    border: 1px solid black;
+    border-radius: 100px;
+    position: relative;
+    transition-duration: 2s;
+    margin-right: 10px;
+}
+.emaillogo:hover {
+    transform: scale(1.2);
+}
+.mediainform {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -62px;
+    margin-left: 716px;
+}
+.our-contacts {
+    text-align: center;
+    position: relative;
+    top: -35px;
+}
+header {
+    background-color: purple;
+}
+.short-info-shop {
+    text-align: center;
+    color: violet;
+}
